@@ -25,9 +25,9 @@ export default function Authentication() {
 
     
 
-    const [username, setUsername] = React.useState();
-    const [password, setPassword] = React.useState();
-    const [name, setName] = React.useState();
+    const [username, setUsername] = React.useState("");
+    const [password, setPassword] = React.useState("");
+    const [name, setName] = React.useState("");
     const [error, setError] = React.useState();
     const [message, setMessage] = React.useState();
 
@@ -76,7 +76,7 @@ export default function Authentication() {
                     sm={4}
                     md={7}
                     sx={{
-                        backgroundImage: 'url(https://source.unsplash.com/random?wallpapers)',
+                        backgroundImage: 'public/image.png',
                         backgroundRepeat: 'no-repeat',
                         backgroundColor: (t) =>
                             t.palette.mode === 'light' ? t.palette.grey[50] : t.palette.grey[900],

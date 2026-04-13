@@ -10,7 +10,7 @@ export default function LandingPage() {
         <div className='landingPageContainer'>
             <nav>
                 <div className='navHeader'>
-                    <h2>Apna Video Call</h2>
+                    <h2>Video Call</h2>
                 </div>
                 <div className='navlist'>
                     <p onClick={() => {
@@ -32,9 +32,11 @@ export default function LandingPage() {
 
             <div className="landingMainContainer">
                 <div>
-                    <h1><span style={{ color: "#FF9839" }}>Connect</span> with your loved Ones</h1>
+                    <h1><span style={{ color: "#bd8c5f" }}>See beyond words</span></h1>
+                    <h5>“High-quality, secure video calling with instant connection. .”</h5>
+                    <h2><span style={{ color: "#FF9839" }}>Connect</span> with your loved Ones</h2>
 
-                    <p>Cover a distance by Apna Video Call</p>
+                    <p>Cover a distance by  Video Call</p>
                     <div role='button'>
                         <Link to={"/auth"}>Get Started</Link>
                     </div>

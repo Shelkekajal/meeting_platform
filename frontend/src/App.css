@@ -1,9 +1,10 @@
 .landingPageContainer {
-  width: 100vw;
+  margin:0;
   height: 100vh;
   background: url("/public/background.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   color: white;
 }
 
@@ -13,6 +14,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: rgb(255 255 255 / 38%);
 
 }
 
@@ -93,4 +95,11 @@
   width: 30vw;
   height: auto;
   border-radius: 20px;
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+  object-fit: contain;   /* keeps image clean */
 }
